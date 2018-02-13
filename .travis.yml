@@ -1,0 +1,15 @@
+language: php
+sudo: required
+php:
+  - '5.4'
+script: find . -name \*.php -exec php -l "{}" \;
+
+deploy:
+  provider: openshift
+  user: ritcsa@india.com
+  password:
+    secure: ThPomqgDT+1NxzMT8+BjX2XnM1tWUnONn6i2HO/dPsy8lN9W/yPhnDkKq2RRPC3urxIi95dKW1PcBKfjo0xSRaLi58wonOQ9TfiDqVJbM7ZtCn4FkdekS5hXsUT9bgurMa1NyZg7dKm+lOMA06kA0X+Dfd8Eqjhin/p25B+L0bn1Xo57D3j17DPwhZ7JvUT9C/hRrLYZc0XpEjbkC5K8VoMeYsdgwuT4clteQEDD4PE9h2KnCMPZP/kWH88lDIJ3yCUSyTV2srYSmShy83XJz+zyjdcrG22oKpTck/+/V+03IcvaAnTRR/N6rJIGfjkchVLuGrESwWh0EMuJScaNclSTdKMQ37V2xFvjOwwO4kMt7aIBaqwzA3kC/HS+nxpUaW/iIUB5Y1ymYFfVWUnn6GGoXVOy5UWjSbVmTtddQNSvsW6ZoxnT8Agq+f96BpzreKS4s0bjDQ+jHcosadcIJoVkcrom4d8HB33u9xgDHcximbHqkQwTNu2jPYhFqqkNbexfQj+4IBqK94ldGmmQU/TWyUhsS3B6rN41IRV3m9qi0ju9DldZJCUmOP8RYf1da/WG8SSd6gYCkwYj8f3r2sTEECmiuxP1xcPlOwFd5BX3qZqUq0d0LsvZPrJSAVr/4RCjStpXsdUFIMcwPQ9hlddsSGImPtRigX4KPrCTyMk=
+  app: unravel
+  domain: ritcsa
+  on:
+    repo: xtracodes/UnRavel
