@@ -1,6 +1,6 @@
 @font-face {
     font-family:latin; 
-    src: url(../fonts/sherlock.ttf);
+    src: url(../fonts/sherlock_new.ttf);
 }
 
 @font-face {
@@ -9,7 +9,7 @@
 }
 
 body {
-	background: url(../images/unravel.jpg) no-repeat center top;
+	background: url(../images/19.jpg) no-repeat center top;
 	margin: 0;
 	background-size:cover;
 	padding: 0;
@@ -81,7 +81,7 @@ img {
 #header div ul li a {
 	color:white;
 	font-family:latin;
-	font-size: 14px;
+	font-size: 21px;
 	font-weight: normal;
 	line-height: 14px;
 	margin: 0;
@@ -128,7 +128,7 @@ img {
 	background: none;
 	color: rgba(255, 35, 35, 0.69);
 	display: block;
-	font-family:unrav; 
+	font-family:latin; 
 	font-size: 115px;
 	font-weight: normal;
 	line-height: 100px;
@@ -153,7 +153,7 @@ img {
 	color: #ffffff;
 	display: block;
 	font-family:latin; 
-	font-size: medium;
+	font-size: 23px;
 	font-weight: bold;
 	height: 47px;
 	line-height: 47px;

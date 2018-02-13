@@ -8,7 +8,7 @@ echo "<!DOCTYPE html>
 	<meta charset=\"UTF-8\">
 	<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
 	<link rel=\"icon\" href=\"../images/icon.png\" type=\"image/png\" sizes=\"16x16\">
-	<title>UnRavel | 2016</title>
+	<title>Decipher | 2018</title>
 	<link rel=\"stylesheet\" href=\"css/style.css\" type=\"text/css\">
 	<link rel=\"stylesheet\" type=\"text/css\" href=\"css/mobile.css\">
 	<script src=\"js/mobile.js\" type=\"text/javascript\"></script>
@@ -31,7 +31,7 @@ echo "<!DOCTYPE html>
 
 					</li>
 					<li>
-						<a href=\"https://www.facebook.com/decipher.ritu\" target=\"_blank\">ALFRED</a>
+						<a href=\"https://www.facebook.com/decipher.ritu\" target=\"_blank\">WATSON</a>
 					</li>";
 					if (isset($_SESSION["fbuid"]))
 					echo "<li>
@@ -221,7 +221,7 @@ echo "<h2>Your rank  ".$rank."</h2>";
 	// if not logged in display
 	//$loginUrl = $helper->getLoginUrl('http://unravel.ensemble16.ml/');
 	$loginUrl = $helper->getLoginUrl('https://decipher.ritu18.com');
-	echo "<div style=\"padding-top:5%;\"><h1>why so serious?</h1>
+	echo "<div style=\"padding-top:5%;\"><h1>Did You Miss Me ?</h1>
 					<span><a href=\"".$loginUrl ."\" class=\"email\">LOGIN WITH FACEBOOK</a></span></div>
 
 					";
