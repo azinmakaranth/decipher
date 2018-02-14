@@ -36,11 +36,6 @@ echo "<!DOCTYPE html>
 					if (isset($_SESSION["fbuid"]))
 					echo "<li>
 						<a href=\"logout.php\">logout</a>
-						<style>
-						#body {
-						background: url(../images/17.jpg) no-repeat center top;
-					}
-					</style>
 					</li>";
 
 
