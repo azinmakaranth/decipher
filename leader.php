@@ -27,7 +27,7 @@
 						
 					</li>
 					<li>
-						<a href="https://www.facebook.com/unravel.cse" target="_blank">ALFRED</a>	
+						<a href="https://www.facebook.com/unravel.cse" target="_blank">WATSON</a>	
 					</li>
 					<?php
 						session_start();

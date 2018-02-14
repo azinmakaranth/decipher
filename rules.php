@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Rules | Unravel</title>
+	<title>Rules | Decipher</title>
 	<link rel="icon" href="../images/icon.png" type="image/png" sizes="16x16">
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 	<link rel="stylesheet" type="text/css" href="css/mobile.css">
@@ -28,7 +28,7 @@
 						
 					</li>
 					<li>
-						<a href="https://www.facebook.com/unravel.cse" target="_blank">ALFRED</a>	
+						<a href="https://www.facebook.com/unravel.cse" target="_blank">WATSON</a>	
 					</li>
 					<?php
 					session_start();
@@ -42,7 +42,7 @@
 		</div>
 		<div id="body" class="runningsinglepost">
 			<div>
-			<h2>BEWARE BAT!</h2>
+			<h2>HAVE THESE IN YOUR MIND PALACE</h2>
 			<p>THE GAME IS BETWEEN YOU AND ME ALONE</p>
 			<p>USE YOUR FACEBOOK ACCOUNT TO LOGIN</p>
 			<p>DONT POST ANSWERS OR ABUSIVE WORDS IN THE FORUM</p>
