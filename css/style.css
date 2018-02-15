@@ -9,7 +9,7 @@
 }
 
 body {
-	background: url(../images/191.jpg) no-repeat center top;
+	background: url(../images/19.jpg) no-repeat center top;
 	margin: 0;
 	background-size:cover;
 	padding: 0;
@@ -139,7 +139,7 @@ img {
 	width: 89.5833%;
 	padding-top:40px;
 	opacity:0.85;
-  margin-top: 80px;
+  margin-top: 150px;
 }
 #body.home div.header div span {
 	display: block;
