@@ -221,7 +221,7 @@ echo "<h2>Your rank  ".$rank."</h2>";
 	// if not logged in display
 	//$loginUrl = $helper->getLoginUrl('http://unravel.ensemble16.ml/');
 	$loginUrl = $helper->getLoginUrl('https://decipher.ritu18.com');
-	echo "<div style=\"padding-top:5%;\"><h1>Did You Miss Me ?</h1>
+	echo "<div style=\"padding-top:5%;\"><h1>Miss Me ?</h1>
 					<span><a href=\"".$loginUrl ."\" class=\"email\">LOGIN WITH FACEBOOK</a></span></div>
 
 					";
