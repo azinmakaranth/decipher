@@ -1,6 +1,6 @@
 @font-face {
     font-family:sherlock; 
-    src: url(../fonts/sherlock.ttf);
+    src: url(../fonts/sherlock_new.ttf);
 }
 @font-face {
     font-family:unrav; 
@@ -143,7 +143,7 @@ font-size:1.5em;
 	color: #000000;
 }
 body{
-	background:url(../images/mob.png) no-repeat center;
+	background:url(../images/m2.jpg) no-repeat;
 	background-size:cover;
 }
 #body {
@@ -162,7 +162,7 @@ body{
 	width: 95%;
 }
 #body div.header div h1 {
-	font-family: unrav;
+	font-family: sherlock;
 	font-size: 46px;
 	font-weight: bolder;
 	//line-height: 46px;
@@ -196,8 +196,8 @@ body{
 	width: 95%;
 }
 #body.home div.header div h1 {
-	font-family: unrav;
-	font-size: 48px;
+	font-family: sherlock;
+	font-size: 0;
 	font-weight: bold;
 	line-height: 58px;
 	width: 99%;
