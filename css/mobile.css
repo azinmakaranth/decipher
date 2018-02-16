@@ -143,7 +143,7 @@ font-size:1.5em;
 	color: #000000;
 }
 body{
-	background:url(../images/m3.jpg) no-repeat;
+	background:url(../images/m3.jpg) no-repeat center top;
 	background-size:cover;
 }
 #body {
