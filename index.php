@@ -244,7 +244,7 @@ echo "</div>
     text-align: center;
 }
 </style>
-	<div class="footer">
+	<div class=\"footer\">
   <p>Footer</p>
 </div>
 </body>
