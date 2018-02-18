@@ -2,6 +2,7 @@
 session_start();
 require_once("database.php");
 global $result;
+$set_session = false;
 echo "<!DOCTYPE html>
 <html>
 <head>
@@ -34,10 +35,11 @@ echo "<!DOCTYPE html>
 						<a href=\"https://www.facebook.com/decipher.ritu\" target=\"_blank\">WATSON</a>
 					</li>";
 					if (isset($_SESSION["fbuid"]))
-					echo "<li>
+					{ echo "<li>
 						<a href=\"logout.php\">logout</a>
 					</li>";
-
+            $set_session = true;
+			  	}
 
 				echo "</ul>
 			</div>
@@ -227,6 +229,7 @@ echo "<h2>Your rank  ".$rank."</h2>";
 					";
 
 }
+if($set_session)
 echo "</div>
 			</div>
 
@@ -245,8 +248,19 @@ echo "</div>
 }
 </style>
 	<div class=\"footer\">
-  <p><a href=\"https://www.ritu18.com\">RITU'18</a>|<a href=\"https://www.facebook.com/rituofficial/\">FB/ritu.offical</a></p>
+  <p><a href=\"https://www.ritu18.com\">RITU'18 </a>| <a href=\"https://www.facebook.com/rituofficial/\"> FB/rituoffical</a></p>
 </div>
 </body>
 </html>
 ";
+else {
+	"</div>
+				</div>
+
+			</div>
+
+		</div>
+	</body>
+	</html>
+	";
+}
