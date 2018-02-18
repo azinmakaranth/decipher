@@ -485,7 +485,7 @@ width:100%;
 .tablestyle {
 	margin:0px;padding:0px;
 	width:100%;
-	box-shadow: 10px 10px 5px #888888;
+	/*box-shadow: 10px 10px 5px #888888;*/
 	font-size:0.9em;
 	text-align:center;
 
@@ -507,8 +507,8 @@ text-align:center;}
 	border-width:0px 0px 1px 0px;
 
 	padding:7px;
-
-	//font-weight:normal;
+	font-size: 20px;
+	font-weight:normal;
 	color:white;
 }.tablestyle tr:last-child td{
 	border-width:0px 1px 0px 0px;
@@ -544,4 +544,5 @@ text-align:center;}
 	border-width:0px 0px 1px 1px;
 }
 th{
-color:black;}
+color:black;
+font-size: 22px;}
