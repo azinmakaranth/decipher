@@ -145,6 +145,7 @@ font-size:1.5em;
 body{
 	background:url(../images/m5.jpg) no-repeat center top;
 	background-size:cover;
+	min-height: 640px;
 }
 #body {
 	margin: 0;
