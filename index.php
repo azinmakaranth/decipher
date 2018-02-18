@@ -229,7 +229,7 @@ echo "<h2>Your rank  ".$rank."</h2>";
 					";
 
 }
-if($set_session)
+if(!$set_session)
 echo "</div>
 			</div>
 
