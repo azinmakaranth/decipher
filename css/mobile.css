@@ -158,14 +158,14 @@ body{
 }
 #body div {
 	margin: 0 auto;
-	//padding: 10% 0 0 0;
+	/*padding: 10% 0 0 0;*/
 	width: 95%;
 }
 #body div.header div h1 {
 	font-family: sherlock;
 	font-size: 46px;
 	font-weight: bolder;
-	//line-height: 46px;
+	/*line-height: 46px;*/
 	width: 100%;
 	opacity: 0.85;
 }
@@ -173,6 +173,12 @@ body{
 	float: none;
 	margin: 0 auto;
 	width: 154px;
+}
+th {
+	font-size: 1em;
+}
+.tablestyle td {
+	font-size: 1em;
 }
 }
 @media only screen and (max-width : 568px) and (orientation : landscape) {
