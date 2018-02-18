@@ -485,7 +485,7 @@ width:100%;
 .tablestyle {
 	margin:0px;padding:0px;
 	width:100%;
-	box-shadow: 10px 10px 5px #888888;
+	/*box-shadow: 10px 10px 5px #888888;*/
 	font-size:0.9em;
 	text-align:center;
 
