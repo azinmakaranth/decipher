@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Leaderboard</title>
-	<link rel="icon" href="../images/icon.png" type="image/png" sizes="16x16">
+	<link rel="icon" href="../images/dec.png" type="image/png" sizes="16x16">
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 	<link rel="stylesheet" type="text/css" href="css/mobile.css">
 	<script src="js/mobile.js" type="text/javascript"></script>
