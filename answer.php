@@ -54,7 +54,7 @@ if (!isset($_SESSION["fbuid"]))
 
 					</li>
 					<li>
-					<a href="https://www.facebook.com/decipher.ritu" target="_blank">ALFRED</a>
+					<a href="https://www.facebook.com/decipher.ritu" target="_blank">WATSON</a>
 
 					</li>
 					<?php
