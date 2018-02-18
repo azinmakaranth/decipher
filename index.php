@@ -181,7 +181,7 @@ if (isset($accessToken)) {
 
 
 		if(!($rowcount))
-		{$content = "<p class=\"ack\">YOU REACHED ME BATMAN...<br>THATS UNBELIEVABLE..!<br>WAIT HERE TILL I COME WITH NEW RIDDLES</p>";
+		{$content = "<p class=\"ack\">YOU REACHED HERE,SHERRLOCKK...<br>THATS UNBELIEVABLE..!<br>WAIT HERE TILL I COME WITH NEXT RIDDLE</p>";
 		}
 		else
 			$content =$content."<br><div id = \"answerbox\"><form action = \"answer.php\" name = \"answer\"><input id=\"ans\" type = \"text\" name = \"answer\"  autofocus autocomplete=\"off\"><br><input id=\"sub\" type = \"submit\" value = \"Check\"></form>";

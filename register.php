@@ -11,20 +11,20 @@ if (!isset($_SESSION["fbuid"]))
 <html >
   <head>
     <meta charset="UTF-8">
-    <title>UNRAVEL | REGISTER</title>
+    <title>Decipher | REGISTER</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
+
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 	<link rel="stylesheet" type="text/css" href="css/mobile.css">
 	<script src="js/mobile.js" type="text/javascript"></script>
   <style>
-  
+
 
 
 #log {
-	text-align:center;	
+	text-align:center;
 }
 #log p {
 	color:brown;
@@ -38,11 +38,11 @@ padding-top:20px;
 }
 .input:focus {
 	border:3px solid yellow;
-	
+
 }
 #sub {
 	        padding:10px;
-	        
+
 	        color: white;
 	        font-size:1em;
             border-radius: 4px;
@@ -59,13 +59,13 @@ padding-top:20px;
 		<div id="header">
 			<div id="navigation">
 				<span id="mobile-navigation">&nbsp;</span>
-				
-  
+
+
 </div>
 </div>
 </br></br>
 	<div id="log"><form id="reg" name = "register" action ="registeraction.php" method="post">
-	<p>College</p><input class="input"  type = "text" name = "college" placeholder="Give short names"required><br><p>Phone Number</p> 
+	<p>College</p><input class="input"  type = "text" name = "college" placeholder="Give short names"required><br><p>Phone Number</p>
 	<input class="input"  type = "text" name = "phone" required><br>
 	<input id="sub"  type = "submit" value = "submit" required></form><br><br>
 	</div>
