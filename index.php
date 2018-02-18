@@ -245,7 +245,7 @@ echo "</div>
 }
 </style>
 	<div class=\"footer\">
-  <p><a href=\"https://www.ritu18.com\">RITU'18</a>|<a href=\"https://www.facebook.com/ritu.offical\">FB/ritu.offical</a></p>
+  <p><a href=\"https://www.ritu18.com\">RITU'18</a>|<a href=\"https://www.facebook.com/rituofficial/\">FB/ritu.offical</a></p>
 </div>
 </body>
 </html>
