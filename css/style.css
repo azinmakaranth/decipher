@@ -507,7 +507,7 @@ text-align:center;}
 	border-width:0px 0px 1px 0px;
 
 	padding:7px;
-	font-size: 20px;
+	font-size: 125%;
 	font-weight:normal;
 	color:white;
 }.tablestyle tr:last-child td{
@@ -545,4 +545,4 @@ text-align:center;}
 }
 th{
 color:black;
-font-size: 22px;}
+font-size: 126%;}
