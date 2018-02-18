@@ -545,3 +545,18 @@ text-align:center;}
 }
 th{
 color:black;}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+	text-align: center;
+	font-family: latin;
+}
+.ritu {
+	color: #45a049;
+}
+.fbritu {
+	color: #fb416f;
+}

@@ -237,18 +237,9 @@ echo "</div>
 
 
 	</div>
-	<style>
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: center;
-}
-</style>
+	
 	<div class=\"footer\">
-  <p><a href=\"https://www.ritu18.com\">RITU'18 </a>| <a href=\"https://www.facebook.com/rituofficial/\"> FB/rituoffical</a></p>
+  <p><a href=\"https://www.ritu18.com\" class=\"ritu\">RITU'18 </a>| <a href=\"https://www.facebook.com/rituofficial/\" class=\"fbritu\"> FB/rituoffical</a></p>
 </div>
 </body>
 </html>
