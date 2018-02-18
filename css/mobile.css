@@ -180,6 +180,10 @@ body{
 	margin: 5% 0 0 8%;
 	width: 80%;
 }
+body{
+	background:url(../images/m5.jpg) no-repeat center ;
+	background-size:cover;
+}
 }
 @media only screen and (max-width : 918px) {
 #body {
