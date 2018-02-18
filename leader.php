@@ -14,7 +14,7 @@
 		<div id="header">
 			<div id="navigation">
 				<span id="mobile-navigation">&nbsp;</span>
-				
+
 				<ul id="menu">
 					<li class="selected">
 						<a href="index.php">Home</a>
@@ -24,33 +24,33 @@
 					</li>
 					<li>
 						<a href="rules.php">RULES</a>
-						
+
 					</li>
 					<li>
-						<a href="https://www.facebook.com/unravel.cse" target="_blank">WATSON</a>	
+						<a href="https://www.facebook.com/decipher.ritu" target="_blank">WATSON</a>	
 					</li>
 					<?php
 						session_start();
 					if (isset($_SESSION["fbuid"]))
 					echo "<li>
-						<a href=\"logout.php\">logout</a>					
+						<a href=\"logout.php\">logout</a>
 					</li>";
 					?>
-					
-					
+
+
 				</ul>
 			</div>
 		</div>
 		<div id="body">
-			
+
 				 <div class="container tablestyle">
-        
+
           <h1 id="rank" align="center" style="color:red"> brains</h1>
-          
+
 		<h4>
             <table width="100%"   >
             <tr align="justify"  height="40" ><th width="10%" style="color:red">RANK</th><th width="25%" style="color:red">NAME</th><th width="16%" style="color:red">COLLEGE</th><th width="10%" style="color:red">LEVEL</th></tr>
-            
+
             <!-- start here-->
 	<?php
 	session_start();
@@ -61,7 +61,7 @@
 	$count=mysqli_num_rows($ref);
 	$per=20;
 	$pagecount=ceil($count/$per);
-	
+
 	$page=$_GET["page"];
 	if ($page=="")
 	{
@@ -78,10 +78,10 @@
 	$ref = $result->query($sql);
 	$rank=$offset+1;
 
-	
-  
+
+
 	while($row = mysqli_fetch_assoc($ref))
-	{	
+	{
 $arr = explode(' ',trim($row["name"]));
 $arr2 = explode(' ',trim($row["college"]));
 
@@ -93,7 +93,7 @@ if($page==1){
 		echo "<tr class=\"row\"><td>".$rank."</td><td>".$arr[0]."</td><td>".$arr2[0]."</td><td>".$row["level"]."</td></tr>";
 		$rank++;
 		}
-	} 
+	}
 	?></table>
 	<div id="paging">
 <?php
@@ -110,9 +110,9 @@ if($page==1){
 	 }
 	for ($i=$start;$i<=$end;$i++)
 	{
-		
+
 		?><a class="link" href="leader.php?page=<?php echo $i?>"><?php echo $i." " ?></a> <?php
-	}		
+	}
 	if($pagecount>$page)
 	{
 			?><a class="link" href="leader.php?page=<?php echo $page+1?>"><?php echo "Next " ?></a> <?php
@@ -121,18 +121,18 @@ if($page==1){
 
 </div>
            <!-- end here-->
-    
 
-     
-           
-              
-          
-        
+
+
+
+
+
+
       </h4>
 	  </div>
-			
+
 		</div>
-		
+
 	</div>
 </body>
 </html>

@@ -8,14 +8,14 @@
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 	<link rel="stylesheet" type="text/css" href="css/mobile.css">
 	<script src="js/mobile.js" type="text/javascript"></script>
-	
+
 </head>
 <body background="images/joker.png">
 	<div id="page">
 		<div id="header">
 			<div id="navigation">
 				<span id="mobile-navigation">&nbsp;</span>
-				
+
 				<ul id="menu">
 					<li class="selected">
 						<a href="index.php">HOME</a>
@@ -25,16 +25,16 @@
 					</li>
 					<li>
 						<a href="rules.php">RULES</a>
-						
+
 					</li>
 					<li>
-						<a href="https://www.facebook.com/unravel.cse" target="_blank">WATSON</a>	
+						<a href="https://www.facebook.com/decipher.ritu" target="_blank">WATSON</a>	
 					</li>
 					<?php
 					session_start();
 					if (isset($_SESSION["fbuid"]))
 					echo "<li>
-						<a href=\"logout.php\">logout</a>					
+						<a href=\"logout.php\">logout</a>
 					</li>";
 					?>
 				</ul>
@@ -53,7 +53,7 @@
 			<p>YOU KNOW I AM AWESOME AND MY DECISIONS ARE ALWAYS RIGHT</p>
 			</div>
 		</div>
-		
+
 	</div>
 </body>
 </html>
