@@ -95,7 +95,7 @@ if (!isset($_SESSION["fbuid"]))
 	$ans=strtolower($ans);
 	if(!($ans))
 	{
-		$content .= "<p class=\"ack\">WAIT FOR MY QUESTION SHERLOCK</p>";
+		$content .= "<img src=\"images/jim.jpg\"/ class = \"coming\" style=""><p class=\"ack\">Ah! You're a bit early Sherlock<br>That's.... unusual<br>Anyway wait here honey, I am not finished with you</p>";
 	}
 
 
@@ -103,7 +103,7 @@ if (!isset($_SESSION["fbuid"]))
 	{
 		$level++;
 		$_SESSION["level"] = $level;
-		if ($level==25)
+		if ($level==20)
 		  $content = "<img src=\"imgs/levels/winmob.jpg\"><p class=\"ack\">winner<br>";
 		else
 		$content = "<img src=\"imgs/correct/cr".rand(1,7).".jpg\"><p class=\"ack\">RIGHT ANSWER<br> <a href = \"index.php\">Next Level</a></p>";
