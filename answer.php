@@ -103,8 +103,8 @@ if (!isset($_SESSION["fbuid"]))
 	{
 		$level++;
 		$_SESSION["level"] = $level;
-		if ($level==25)
-		  $content = "<img src=\"imgs/levels/winmob.jpg\"><p class=\"ack\">winner<br>";
+		if ($level==20)
+		  $content = "<img src=\"imgs/correct/cr".rand(1,7).".jpg\"><p class=\"ack\">RIGHT ANSWER<br> <a href = \"index.php\">Next</a></p>";
 		else
 		$content = "<img src=\"imgs/correct/cr".rand(1,7).".jpg\"><p class=\"ack\">RIGHT ANSWER<br> <a href = \"index.php\">Next Level</a></p>";
 		$sql = "UPDATE users SET level = '" . $level . "' WHERE fbuid = '" . $_SESSION["fbuid"] ."'";
