@@ -183,7 +183,7 @@ if (isset($accessToken)) {
 
 
 		if(!($rowcount))
-		{$content = "<p class=\"ack\">YOU REACHED HERE,SHERRLOCKK...<br>THATS UNBELIEVABLE..!<br>WAIT HERE TILL I COME WITH NEXT RIDDLE</p>";
+		{$content = "<p class=\"ack\">Ah! You're a bit early Sherlock<br>That's.... unusual<br>Anyway wait here honey, I am not finished with you</p>";
 		}
 		else
 			$content =$content."<br><div id = \"answerbox\"><form action = \"answer.php\" name = \"answer\"><input id=\"ans\" type = \"text\" name = \"answer\"  autofocus autocomplete=\"off\"><br><input id=\"sub\" type = \"submit\" value = \"Check\"></form>";
@@ -237,7 +237,7 @@ echo "</div>
 
 
 	</div>
-	
+
 	<div class=\"footer\">
   <p><a href=\"https://www.ritu18.com\" class=\"ritu\">RITU'18 </a>| <a href=\"https://www.facebook.com/rituofficial/\" class=\"fbritu\"> FB/rituoffical</a></p>
 </div>
