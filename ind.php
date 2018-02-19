@@ -140,63 +140,9 @@ if (isset($accessToken)) {
 		else
 			$content =$content."<br><div id = \"answerbox\"><form action = \"answer.php\" name = \"answer\"><input id=\"ans\" type = \"text\" name = \"answer\"  autofocus autocomplete=\"off\"><br><input id=\"sub\" type = \"submit\" value = \"Check\"></form>";
 print $content;
-$sql= "SELECT count( * ) as rank
-FROM `users`
-WHERE level > (
-SELECT level
-FROM users
-WHERE fbuid =".$_SESSION["fbuid"]." )
-OR (
-level = (
-SELECT level
-FROM users
-WHERE fbuid =".$_SESSION["fbuid"]." )
-AND passtime < (
-SELECT passtime
-FROM users
-WHERE fbuid =".$_SESSION["fbuid"]." )
-) AND role not in (-1,10)";
-		$ref = $result->query($sql);
-		$row = mysqli_fetch_assoc($ref);
-		$rank=$row['rank'];
-		$rank=$rank+1;
-echo "<h2>Your rank  ".$rank."</h2>";
-
-	}
-	else if ($_SESSION["role"]<0)
-	{
-		$content = "<p class=\"ack\">You have been banned from playing.<br> Contact the FB page</p>";
-		print $content;
-	}
 
 
-  	// Now you can redirect to another page and use the access token from $_SESSION['facebook_access_token']
-} else {
-	// if not logged in display
-	//$loginUrl = $helper->getLoginUrl('http://unravel.ensemble16.ml/');
-	$loginUrl = $helper->getLoginUrl('https://decipher.ritu18.com');
-	echo "<div style=\"padding-top:5%;\"><h1>Miss Me ?</h1>
-					<span><a href=\"".$loginUrl ."\" class=\"email\">LOGIN WITH FACEBOOK</a></span></div>
-
-					";
-
-}
-if(!$set_session)
-echo "</div>
-			</div>
-
-		</div>
-
-
-	</div>
-
-	<div class=\"footer\">
-  <p><a href=\"https://www.ritu18.com\" class=\"ritu\">RITU'18 </a>| <a href=\"https://www.facebook.com/rituofficial/\" class=\"fbritu\"> FB/rituoffical</a></p>
-</div>
-</body>
-</html>
-";
-else {
+echo
 	"</div>
 				</div>
 
@@ -206,4 +152,3 @@ else {
 	</body>
 	</html>
 	";
-}
