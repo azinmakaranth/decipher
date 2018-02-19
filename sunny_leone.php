@@ -1,7 +1,7 @@
 <style>
 tr{
 	color:ivory;
-	text-align:center;	
+	text-align:center;
 }
 th {
 	color:yellow;
@@ -43,7 +43,7 @@ div#cont img{
 </style>
 
 
-<?php 
+<?php
 session_start();
 if($_SESSION["role"]!=10)
 {
@@ -90,12 +90,12 @@ if($_SESSION["role"]!=10)
     <th>Level</th>
 	<th>Time</th>
     </tr>";
-  
+
 	while($row = mysqli_fetch_assoc($ref))
 	{
 		echo "<tr><td>".$rank."</td><td>".$row["user"]."</td><td>".$row["val"]."</td><td>".$row["level"]."</td><td>".$row["time"]."</td></tr>";
 		$rank++;
-	} 
+	}
 	?></table>
 	<div id="paging">
 	<?php
@@ -112,9 +112,9 @@ if($_SESSION["role"]!=10)
 	 }
 	for ($i=$start;$i<=$end;$i++)
 	{
-		
+
 		?><a class="link" href="sunny_leone.php?work=1&page=<?php echo $i?>"><?php echo $i." " ?></a> <?php
-	}		
+	}
 	if($pagecount>$page)
 	{
 			?><a class="link" href="sunny_leone.php?work=1&page=<?php echo $page+1?>"><?php echo "Next " ?></a> <?php
@@ -138,9 +138,9 @@ if($_SESSION["role"]!=10)
 		$sql = "SELECT * FROM levels WHERE name = '" . $level . "'";
 		$ref = $result->query($sql);
 		$row = mysqli_fetch_assoc($ref);
-		
+		$lockd = "$$$$$$$$$$";
 
-		echo "<p class=\"disp\">".$row["name"]."</p><br>"."<p class=\"disp\">".$row["title"]."</p><br>"."<div class=\"ques\">".$row["contents"] ."<br><p>Answer:"."  ".$row["answer"]."</p><br></div></div>";
+		echo "<p class=\"disp\">".$row["name"]."</p><br>"."<p class=\"disp\">".$row["title"]."</p><br>"."<div class=\"ques\">".$row["contents"] ."<br><p>Answer:"."  ".$lockd."</p><br></div></div>";
 
 
   }}
