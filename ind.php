@@ -124,7 +124,7 @@ if (isset($accessToken)) {
 	//print_r($profile);
 
 
-		$sql = "SELECT * FROM levels WHERE name = '10'" ;
+		$sql = "SELECT * FROM levels WHERE name = '0'" ;
 		$ref = $result->query($sql);
 		 $rowcount=mysqli_num_rows($ref);
 		$row = mysqli_fetch_assoc($ref);
