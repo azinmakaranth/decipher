@@ -183,7 +183,7 @@ if (isset($accessToken)) {
 
 
 		if(!($rowcount))
-		{$content = "<p class=\"ack\">Ah! You're a bit early Sherlock<br>That's.... unusual<br>Anyway wait here honey, I am not finished with you</p>";
+		{$content = "<img src=\"images/jim.jpg\"/ class = \"coming\"><p class=\"ack\">Ah! You're a bit early Sherlock<br>That's.... unusual<br>Anyway wait here honey, I am not finished with you</p>";
 		}
 		else
 			$content =$content."<br><div id = \"answerbox\"><form action = \"answer.php\" name = \"answer\"><input id=\"ans\" type = \"text\" name = \"answer\"  autofocus autocomplete=\"off\"><br><input id=\"sub\" type = \"submit\" value = \"Check\"></form>";
