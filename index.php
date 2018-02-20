@@ -15,8 +15,7 @@ echo "<!DOCTYPE html>
 	<script src=\"js/mobile.js\" type=\"text/javascript\"></script>
 </head>
 <body>
-                              <!------Hey Sherlock----->
- <!------------------------------https://goo.gl/UdcdWK-------------------------------->
+
 	<div id=\"page\">
 		<div id=\"header\">
 			<div id=\"navigation\">
@@ -168,7 +167,10 @@ if (isset($accessToken)) {
 	else if($_SESSION["role"] >=0)
 	{
 		$id = $_SESSION["level"];
-
+    if($id == '4' || $id == 4){
+			echo "<!------Hey Sherlock----->
+<!------------------------------https://goo.gl/UdcdWK-------------------------------->";
+		}
 		if($id==20){
 		 $output = "<script>
         window.location='winner.html';
