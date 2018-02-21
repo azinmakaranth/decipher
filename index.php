@@ -1,6 +1,6 @@
 <?php
 session_start();
-//require_once("database.php");
+require_once("database.php");
 global $result;
 $set_session = false;
 echo "<!DOCTYPE html>
