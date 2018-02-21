@@ -560,3 +560,9 @@ color:black;}
 .fbritu {
 	color: #fb416f;
 }
+
+#adv {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}

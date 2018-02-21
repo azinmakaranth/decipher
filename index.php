@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once("database.php");
+//require_once("database.php");
 global $result;
 $set_session = false;
 echo "<!DOCTYPE html>
@@ -232,7 +232,7 @@ echo "<h2>Your rank  ".$rank."</h2>";
 					<span><a href=\"".$loginUrl ."\" class=\"email\">LOGIN WITH FACEBOOK</a></span></div>
 
 					";
-
+					echo '<a href="http://kmtech.in/" target="_blank"><img id="adv" src="imgs/banner.jpg"></a>';
 }
 if(!$set_session)
 echo "</div>
